@@ -1,6 +1,6 @@
 
-var src_url = "http://127.0.0.1:5500/";
-// var src_url = "http://172.105.158.108:5500/";
+// var src_url = "http://127.0.0.1:5500/";
+ var src_url = "http://172.105.158.108:5500/";
 
 
 var seconds = 1000;
