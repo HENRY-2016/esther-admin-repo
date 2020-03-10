@@ -1,0 +1,46 @@
+
+
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title> SJN | Home</title>
+<script src="static/js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="static/css/main.css">
+<link rel="stylesheet" type="text/css" href="static/css/w3.css">
+</head>
+<body  class="main_body">
+<div id="main-header">
+	    <div  id= "Navigetion" class="header">
+				<!-- ======= CLOSE ====== -->
+			<img src="static/imgs/log.jpg" class=" w3-circle Name-log-icone" ><br>
+			<p class="Name-label">&nbsp;&nbsp;&nbsp;J.A Youth  League </p><br>
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNavi()"><label style="background-color: #CDC1C5; border-radius: 50px;"> &times;</label></a><!-- closs the navi -->
+					<center>
+						<a><label onclick="Load_index ()">Home</label></a>
+						<a><label onclick="Load_members_view ()">Members</label></a>
+					</center>
+			</div>
+			<div id="NaviDiv">
+				<!-- ==== OPEN  ======= -->
+					<span style="font-size:45px;cursor:pointer; color:white;" class="MenuBtn" onclick="openMenus()">
+						<!-- my open icon -->
+						<img src="static/imgs/nav-icone.png" class="LogIconImg">
+					</span>
+			</div>
+			<script>
+				function openMenus()
+					{document.getElementById("Navigetion").style.width = "240px"}
+				function closeNavi ()
+					{document.getElementById("Navigetion").style.width = "0"}  
+			</script>
+
+</div> <!-- main-header-->
+   <div id="main-body"> <!-- Begin main-body div -->
+		<!-- <img src="static/imgs/wallpaper.png" class="home-log-img"><br><br> -->
+<div id="main-footer">
+
+</div>
+
+</body>
+</html>
+

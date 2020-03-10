@@ -1,0 +1,188 @@
+
+
+.main_body {background-image: url("../imgs/body-bg.png");}
+
+/*=======================================================================================================*/
+                                            /*
+                                               +++++++++++++++++++++++++ ++
+                                               +                          +
+                                               +   index page   +
+                                               +                          + 
+                                               ++++++++++++++++++++++++++++
+                                            */
+
+.home-log-img
+{
+    height: 230px;
+    width: 80%;
+    margin-top: -35px;
+    border-radius: 45px;
+}
+.home_page_fonts
+{
+    font-size: 20px;
+    font-weight:bold;
+    color:#E6E6FA;
+    font-family:Times New Roman Times, serif;
+}
+.home-holdings-btn
+    {
+        background-color:#708090;
+        border:none;
+        width:50%;
+        height:33px;
+        border-radius:18px;
+    }
+
+/*=======================================================================================================*/
+                                            /*
+                                               +++++++++++++++++++++++++ ++
+                                               +                          +
+                                               +   View Page              +
+                                               +                          + 
+                                               ++++++++++++++++++++++++++++
+                                            */
+
+
+
+.js_table_headers
+{
+    background-color:#4CAF50;
+}
+.js_table_row
+{
+    background-color:#2196F3;
+    /* color: white; */
+    border-bottom:1px solid #ddd;
+    font-size: 18px;
+    font-weight:bold;
+    color:#E6E6FA;
+    font-family:Times New Roman Times, serif;
+    
+}
+.js_table_row:hover
+{
+    background-color: black;
+    cursor: pointer;
+}
+
+.user-scrolling-table
+{
+    display:block;
+    overflow: auto;
+    height: 400px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.stock-status-table
+{
+    display:block;
+    overflow: auto;
+    height: 400px;
+    width: 100%;
+    margin-left:50px; 
+    margin-right:50px;
+}
+.loader {
+    position: absolute;
+    border: 16px solid ;
+    border-top: 16px solid #7FFF00;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left:30%;
+    margin-right:50px;
+    margin-top:50px;
+    animation: spin 2s linear infinite;
+    z-index: 4;
+}
+
+@keyframes spin 
+    {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+
+
+
+/*=======================================================================================================*/
+                                        /*
+                                            +++++++++++++++++++++++++ ++
+                                            +                          +
+                                            +         MAIN NAVIGETION  +
+                                            +                          + 
+                                            ++++++++++++++++++++++++++++
+                                        */
+.LogIconImg
+{
+    margin-top: 10px;
+    width: 70px;
+    
+}
+
+.Name-label
+{
+    color:blue;
+    /* margin-bottom: -80px; */
+    margin-left: 20px;
+    font-size:18px;
+    font-weight: bold;
+    background-color: #CDC1C5; border-radius: 10px
+}
+.Name-log-icone 
+{
+    width: 60%;
+    margin-left: 20%;
+}
+.HomeIcon
+{
+    font-size:36px;
+    color:white;
+    font-weight:bold;
+}
+.header
+{ 
+    position: fixed;
+    height: 100%;
+    width: 0;
+    padding-top: 60px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /*SLIDER*/
+    background-color:#8B8386; /* chocolate 1 500+*/   
+}
+
+.header a
+{   
+    color:blue;
+    text-decoration:none;
+    transition:0.3s; 
+    display:block;
+    padding:10px 10px;
+    font-size: 20px;
+    font-family:Times New Roman Times, serif;   
+}
+
+
+.header a:hover
+{
+    background-color:#E6E6FA;/*sienna 3 500+*/
+            
+}
+
+.header .closebtn
+{
+    
+    position:absolute;
+    right: 2px;
+    margin-left:50px;
+    top:0;
+    font-size:30px; 
+    
+}
