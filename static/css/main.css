@@ -2,9 +2,7 @@
 
 .main_body
 {
-    /* background-image: url("../imgs/body-bg.png"); */
-    background-color: #D2691E;
-
+    background-color: #C0C0C0;
 }
 
 
@@ -588,16 +586,14 @@ a:hover{background-color:#E6E6FA;}
 }
 #menu-items-div
 {
-    background-color: rgb(0, 174, 255);
+    background-color:#A9A9A9; 
     border-radius: 10px;
 }
 
 #NaviDiv
     {
-        /* background-color:#CD853F; */
-        background-color:#8B4513;
-        /* #CD853F;  */
-        height:80px;
+        background-color:#808080;
+        height:50px;
     }
 
 #our-avenues-menu-label-div
@@ -614,12 +610,11 @@ a:hover{background-color:#E6E6FA;}
     font-family:Times New Roman Times, serif;
 }
 
-.kone-menu-label
+.open-side-navi-label
 {
-    font-size:50px;
-    margin-top: -100px;
+    font-size:35px;
     cursor:pointer;
-    /* color:#00008B; */
+    margin-left: 8px;
     color: white;
 }
 .kone-label
