@@ -29,11 +29,26 @@ function Init_beefliver_new_orders_div (){Show_beefliver_new_orders_div ();  Loa
 
 
 function NewOrdersLogic (){ Show_orders_panel_div ();}
+
+function Create_Offline_Label ()
+{
+    let offline_label_div = document.getElementById("offline-label-div");
+    let label = document.createElement("label");
+    label.innerHTML = "Your Are Offline <br> Please <br>Connect To Network"
+    label.className = "Offline-Label"
+    offline_label_div.appendChild(label)
+}
 function do_logic ()
 {
     // update_chips_status_id ();
-    Fetch_Customer_New_Orders ();
-    Hide_all_Divs ();
+    // Fetch_Customer_New_Orders ();
+    // Hide_all_Divs ();
+
+    if (!navigator.onLine) {Create_Offline_Label ();}
+	else if (navigator.onLine) 
+		{
+            window.location='https://henry-2016.github.io/esther-admin-server-repo/'            
+		}
 }
 </script>
 </head>

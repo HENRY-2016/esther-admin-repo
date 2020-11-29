@@ -301,15 +301,15 @@ th[scope=row] {
 {
 
     width: 95%;
-    background-image: url("../imgs/close-btn.png");
+    background-color: #8B8386;
     height:35px;
     border-radius:50px;
 }
 .close-child-btn
 {
     width: 95%;
-    background-image: url("../imgs/submit-btn.png");
     height:30px;
+    background-color: red;
     border-radius:50px;
 }
 
