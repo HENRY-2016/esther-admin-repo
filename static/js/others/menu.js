@@ -17,7 +17,7 @@ function Add_Menu_Gallery_Iframe (endpoint)
     let MenuGalleryDiv = document.getElementById("menu-pics-div");
     let MenuIframe = document.createElement("iframe");
     MenuIframe.className = "menu-iframe";
-    MenuIframe.setAttribute("src",  src_url + endpoint);
+    // MenuIframe.setAttribute("src",  src_url + endpoint);
     MenuGalleryDiv.appendChild(MenuIframe);
 }
 
@@ -27,7 +27,7 @@ function Add_Menu_Gallery_Iframe_With_Args (offline_label,menu_divid,endpoint)
     let MenuGalleryDiv = document.getElementById(menu_divid);
     let MenuIframe = document.createElement("iframe");
     MenuIframe.className = "menu-iframe";
-    MenuIframe.setAttribute("src",  src_url + endpoint);
+    // MenuIframe.setAttribute("src",  src_url + endpoint);
     MenuGalleryDiv.appendChild(MenuIframe);
 }
 
