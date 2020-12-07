@@ -1,5 +1,6 @@
 
-neworders_url = "http://192.168.43.140:6060/"
+// neworders_url = "http://192.168.43.140:6060/"
+neworders_url = "http://127.0.0.1:4444/";
 vibrateionsseconds = 1000;
 reloadsecs = 6000;
 
