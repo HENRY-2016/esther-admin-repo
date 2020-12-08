@@ -509,9 +509,10 @@ th[scope=row] {
 }
 .close-navi-span
 {
-    background-color: red;
+    background-color:#ca1f7b;
     border-radius: 60px;
-    color:#00008B;
+    color:white;
+    font-style: bold;
 }
 .our-label-menu
 {
@@ -523,7 +524,7 @@ th[scope=row] {
     background-color: wheat;
     border-radius: 10px;
 }
-.make-order-label
+/* .make-order-label
 {
     color:blue;
     text-decoration:none;
@@ -533,7 +534,7 @@ th[scope=row] {
     padding:10px 10px;
     background-color: yellowgreen;
     border-radius: 10px;
-}
+} */
 
 .Name-log-icone
 {
@@ -563,16 +564,17 @@ th[scope=row] {
 
 .header a
 {
-    color:blue;
+    color:white;
     text-decoration:none;
     transition:0.3s;
     display:block;
     padding:5px 5px;
+    font-style: oblique;
     font-size: 20px;
     font-family:Times New Roman Times, serif;
 }
 
-a:hover{background-color:#E6E6FA;}
+/* a:hover{background-color:#E6E6FA;} */
 
 .header .closebtn
 {
@@ -586,21 +588,21 @@ a:hover{background-color:#E6E6FA;}
 }
 #menu-items-div
 {
-    background-color:#A9A9A9; 
+    background-color:#a21369; 
     border-radius: 10px;
 }
 
 #NaviDiv
     {
-        background-color:#808080;
+        background-color:##a21369;
         height:50px;
     }
 
 #our-avenues-menu-label-div
 {
-    background-color: white;
+    /* background-color: white; */
     border-radius: 10px;
-    color:blue;
+    color:white;
     text-decoration:none;
     transition:0.3s;
     text-align: center;
