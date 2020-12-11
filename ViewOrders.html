@@ -9,14 +9,14 @@
 <script src="static/js/orders/chips_received.js"></script>
 <script src="static/js/orders/piloa_received.js"></script>
 <script src="static/js/orders/softdrinks_received.js"></script>
-<script src="static/js/orders/freshdrinks_received.js"></script>
+<!-- <script src="static/js/orders/freshdrinks_received.js"></script> -->
 <script src="static/js/orders/salads_received.js"></script>
 <script src="static/js/orders/chicken_received.js"></script>
 <script src="static/js/orders/luwombo_received.js"></script>
 <script src="static/js/orders/localdishe_received.js"></script>
 <script src="static/js/orders/breakfast_other_received.js"></script>
-<script src="static/js/orders/breakfast_egg_received.js"></script>
-<script src="static/js/orders/breakfast_teas_received.js"></script>
+<!-- <script src="static/js/orders/breakfast_egg_received.js"></script>
+<script src="static/js/orders/breakfast_teas_received.js"></script> -->
 <script src="static/js/orders/beverages_received.js"></script>
 <script src="static/js/orders/goatmeat_received.js"></script>
 <script src="static/js/orders/beefliver_received.js"></script>
@@ -32,9 +32,9 @@ function Set_Up_Every_Thing ()
     Load_Chicken_Offline_Data ();
     Load_Luwombo_Offline_Data ();
     Load_Localdishe_Offline_Data ();
-    Load_Breakfast_Egg_Offline_Data ();
+    // Load_Breakfast_Egg_Offline_Data ();
     Load_Breakfast_Other_Offline_Data ();
-    Load_Breakfast_Teas_Offline_Data ();
+    // Load_Breakfast_Teas_Offline_Data ();
     Load_Beverages_Offline_Data ();
     Load_Goatmeat_Offline_Data ();
     Load_Beefliver_Offline_Data ()
@@ -1551,7 +1551,7 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
         -->
-        <button onclick="Show_fresh_drinks_orders_received_root_div ()" class="clour_types_btn entries_page_fonts" >Fresh Drinks </button><br><br>
+        <!-- <button onclick="Show_fresh_drinks_orders_received_root_div ()" class="clour_types_btn entries_page_fonts" >Fresh Drinks </button><br><br>
         <div id="fresh-drinks-orders-received-root-div">
             <button onclick="show_fresh_drinks_orders_received_view_all_div ()" class="view-btns-children entries_page_fonts">View all</button> <br><br>
             <div id="fresh-drinks-orders-received-view-all-div">
@@ -1565,10 +1565,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                 </center>
             </div>
             <button onclick="close_fresh_drinks_orders_received_view_all_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
-            </div>
+            </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_fresh_drinks_orders_received_view_date_div ()" class="  view-btns-children entries_page_fonts">By Date</button> <br><br>
+            <!-- <button onclick="show_fresh_drinks_orders_received_view_date_div ()" class="  view-btns-children entries_page_fonts">By Date</button> <br><br>
             <div id="fresh-drinks-orders-received-date-div">
                 <button onclick="show_fresh_drinks_orders_received_date_today_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">Today</button>
                     <div id="fresh-drinks-orders-received-date-today-grand-child-div" >
@@ -1582,9 +1582,9 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                                 </center>
                             </div>
                         <button onclick="close_fresh_drinks_orders_received_date_today_grand_child_div ()" class="close-child-btn entries_page_fonts" >Close</button><br><br>
-                    </div><br><br>
+                    </div><br><br> -->
                 <!-- .......................................... -->
-                <button onclick="show_fresh_drinks_orders_received_date_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">Date</button>
+                <!-- <button onclick="show_fresh_drinks_orders_received_date_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">Date</button>
                     <div id="fresh-drinks-orders-received-date-grand-child-div" >
                         <form class="orders_from_to_form" id="fresh-drink-orders-date-date-form" >
                             <label>Date</label>
@@ -1601,10 +1601,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                         </div>
                         <button onclick="close_fresh_drinks_orders_received_date_grand_child_div ()" class="close-child-btn entries_page_fonts">Close</button>
                     </div><br><br>
-            </div>
+            </div> -->
             <!-- ===================================================== -->
 
-            <button onclick="show_fresh_drinks_orders_received_from_to_week_div ()" class="view-btns-children entries_page_fonts">From -- To</button> <br><br>
+            <!-- <button onclick="show_fresh_drinks_orders_received_from_to_week_div ()" class="view-btns-children entries_page_fonts">From -- To</button> <br><br>
             <div id="fresh-drinks-orders-received-from-to-div">
                 <button  onclick="show_fresh_drinks_orders_received_from_to_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">All</button>
                 <div id="fresh-drinks-orders-received-from-to-all-grand-child-div">
@@ -1633,10 +1633,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     <button onclick="close_fresh_drinks_orders_received_from_to_week_div ()" class="close-child-btn entries_page_fonts" >Close</button>
                 </div>
                 </div><br><br><br>
-            </div>
+            </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_fresh_drinks_orders_received_view_last_week_div ()" class=" view-btns-children entries_page_fonts">Last Week</button> <br><br>
+            <!-- <button onclick="show_fresh_drinks_orders_received_view_last_week_div ()" class=" view-btns-children entries_page_fonts">Last Week</button> <br><br>
             <div id="fresh-drinks-orders-received-last-week-div">
                 <button onclick="show_fresh_drinks_orders_received_last_week_all_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">All</button>
                     <div id="fresh-drinks-orders-received-last-week-all-grand-child-div">
@@ -1651,10 +1651,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                             </div>
                         <button onclick="close_fresh_drinks_orders_received_last_week_all_grand_child_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
                     </div><br><br>
-                </div>
+                </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_fresh_drinks_orders_received_this_month_grand_child_div ()" class="view-btns-children entries_page_fonts">This Month</button> <br><br>
+            <!-- <button onclick="show_fresh_drinks_orders_received_this_month_grand_child_div ()" class="view-btns-children entries_page_fonts">This Month</button> <br><br>
             <div id="fresh-drinks-orders-received-this-month-div">
                 <button  onclick="show_fresh_drinks_orders_received_this_month_all_grand_child_div()" class="view-btns-grand-child   entries_page_fonts">All</button>
                     <div id="fresh-drinks-orders-received-this-month-all-grand-child-div">
@@ -1667,9 +1667,9 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                         </center>
                         <button onclick="close_fresh_drinks_orders_received_this_month_all_grand_child_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
                     </div><br><br>
-            </div>
+            </div> -->
             <!-- ===================================================== -->
-            <button onclick="show_fresh_drinks_orders_received_view_last_month_div ()" class="view-btns-children  entries_page_fonts">Last Month</button> <br><br>
+            <!-- <button onclick="show_fresh_drinks_orders_received_view_last_month_div ()" class="view-btns-children  entries_page_fonts">Last Month</button> <br><br>
             <div id="fresh-drinks-orders-received-last-month-div">
             <button onclick="show_fresh_drinks_orders_received_last_month_all_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">All</button><br><br>
                 <div id="fresh-drinks-orders-received-last-month-by-all-grand-child-div">
@@ -1682,7 +1682,7 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                         </center>
                     <button onclick="close_fresh_drinks_orders_received_last_month_all_grand_child_div ()" class="close-child-btn  entries_page_fonts" >Close</button><br><br>
                 </div>
-            </div>
+            </div> -->
 
 
         </div>
@@ -1694,7 +1694,7 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
         -->
-        <button onclick="Show_breakfast_egg_orders_received_root_div ()" class="clour_types_btn entries_page_fonts" > Break Fast Egg </button><br><br>
+        <!-- <button onclick="Show_breakfast_egg_orders_received_root_div ()" class="clour_types_btn entries_page_fonts" > Break First </button><br><br>
         <div id="breakfast-egg-orders-received-root-div">
             <button onclick="show_breakfast_egg_orders_received_view_all_div ()" class="view-btns-children entries_page_fonts">View all</button> <br><br>
             <div id="breakfast-egg-orders-received-view-all-div">
@@ -1708,10 +1708,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                 </center>
             </div>
             <button onclick="close_breakfast_egg_orders_received_view_all_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
-            </div>
+            </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_breakfast_egg_orders_received_view_date_div ()" class="  view-btns-children entries_page_fonts">By Date</button> <br><br>
+            <!-- <button onclick="show_breakfast_egg_orders_received_view_date_div ()" class="  view-btns-children entries_page_fonts">By Date</button> <br><br>
             <div id="breakfast-egg-orders-received-date-div">
                 <button onclick="show_breakfast_egg_orders_received_date_today_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">Today</button>
                     <div id="breakfast-egg-orders-received-date-today-grand-child-div" >
@@ -1725,9 +1725,9 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                                 </center>
                             </div>
                         <button onclick="close_breakfast_egg_received_date_today_grand_child_div ()" class="close-child-btn entries_page_fonts" >Close</button><br><br>
-                    </div><br><br>
+                    </div><br><br> -->
                 <!-- .......................................... -->
-                <button onclick="show_breakfast_egg_orders_received_date_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">Date</button>
+                <!-- <button onclick="show_breakfast_egg_orders_received_date_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">Date</button>
                     <div id="breakfast-egg-orders-received-date-grand-child-div" >
                         <form class="orders_from_to_form" id="breakfast-egg-date-date-form" >
                             <label>Date</label>
@@ -1744,10 +1744,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                         </div>
                         <button onclick="close_breakfast_egg_orders_received_date_grand_child_div ()" class="close-child-btn entries_page_fonts">Close</button>
                     </div><br><br>
-            </div>
+            </div> -->
             <!-- ===================================================== -->
 
-            <button onclick="show_breakfast_egg_orders_received_from_to_week_div ()" class="view-btns-children entries_page_fonts">From -- To</button> <br><br>
+            <!-- <button onclick="show_breakfast_egg_orders_received_from_to_week_div ()" class="view-btns-children entries_page_fonts">From -- To</button> <br><br>
             <div id="breakfast-egg-orders-received-from-to-div">
                 <button  onclick="show_breakfast_egg_orders_received_from_to_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">All</button>
                 <div id="breakfast-egg-orders-received-from-to-all-grand-child-div">
@@ -1776,10 +1776,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     <button onclick="close_breakfast_egg_received_from_to_grand_child_div ()" class="close-child-btn entries_page_fonts" >Close</button>
                 </div>
                 </div><br><br><br>
-            </div>
+            </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_breakfast_egg_orders_received_view_last_week_div ()" class=" view-btns-children entries_page_fonts">Last Week</button> <br><br>
+            <!-- <button onclick="show_breakfast_egg_orders_received_view_last_week_div ()" class=" view-btns-children entries_page_fonts">Last Week</button> <br><br>
             <div id="breakfast-egg-orders-received-last-week-div">
                 <button onclick="show_breakfast_egg_orders_received_last_week_all_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">All</button>
                     <div id="breakfast-egg-orders-received-last-week-all-grand-child-div">
@@ -1794,10 +1794,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                             </div>
                         <button onclick="close_breakfast_egg_orders_received_last_week_all_grand_child_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
                     </div><br><br>
-                </div>
+                </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_breakfast_egg_orders_received_this_month_grand_child_div ()" class="view-btns-children entries_page_fonts">This Month</button> <br><br>
+            <!-- <button onclick="show_breakfast_egg_orders_received_this_month_grand_child_div ()" class="view-btns-children entries_page_fonts">This Month</button> <br><br>
             <div id="breakfast-egg-orders-received-this-month-div">
                 <button  onclick="show_breakfast_egg_orders_received_this_month_all_grand_child_div()" class="view-btns-grand-child   entries_page_fonts">All</button>
                     <div id="breakfast-egg-orders-received-this-month-all-grand-child-div">
@@ -1812,9 +1812,9 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                         </div>
                         <button onclick="close_breakfast_egg_orders_received_this_month_all_grand_child_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
                     </div><br><br>
-            </div>
+            </div> -->
             <!-- ===================================================== -->
-            <button onclick="show_breakfast_egg_orders_received_view_last_month_div ()" class="view-btns-children  entries_page_fonts">Last Month</button> <br><br>
+            <!-- <button onclick="show_breakfast_egg_orders_received_view_last_month_div ()" class="view-btns-children  entries_page_fonts">Last Month</button> <br><br>
             <div id="breakfast-egg-orders-received-last-month-div">
             <button onclick="show_breakfast_egg_orders_received_last_month_all_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">All</button><br><br>
                 <div id="breakfast-egg-orders-received-last-month-by-all-grand-child-div">
@@ -1830,7 +1830,7 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     <button onclick="close_breakfast_egg_orders_received_last_month_all_grand_child_div ()" class="close-child-btn  entries_page_fonts" >Close</button><br><br>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--
         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
         @
@@ -1839,7 +1839,7 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
         -->
-        <button onclick="Show_breakfast_teas_orders_received_root_div ()" class="clour_types_btn entries_page_fonts" > Break Fast Teas </button><br><br>
+        <!-- <button onclick="Show_breakfast_teas_orders_received_root_div ()" class="clour_types_btn entries_page_fonts" > Break Fast Teas </button><br><br>
         <div id="breakfast-teas-orders-received-root-div">
             <button onclick="show_breakfast_teas_orders_received_view_all_div ()" class="view-btns-children entries_page_fonts">View all</button> <br><br>
             <div id="breakfast-teas-orders-received-view-all-div">
@@ -1853,10 +1853,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                 </center>
             </div>
             <button onclick="close_breakfast_teas_orders_received_view_all_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
-            </div>
+            </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_breakfast_teas_orders_received_view_date_div ()" class="  view-btns-children entries_page_fonts">By Date</button> <br><br>
+            <!-- <button onclick="show_breakfast_teas_orders_received_view_date_div ()" class="  view-btns-children entries_page_fonts">By Date</button> <br><br>
             <div id="breakfast-teas-orders-received-date-div">
                 <button onclick="show_breakfast_teas_orders_received_date_today_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">Today</button>
                     <div id="breakfast-teas-orders-received-date-today-grand-child-div" >
@@ -1870,9 +1870,9 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                                 </center>
                             </div>
                         <button onclick="close_breakfast_teas_received_date_today_grand_child_div ()" class="close-child-btn entries_page_fonts" >Close</button><br><br>
-                    </div><br><br>
+                    </div><br><br> -->
                 <!-- .......................................... -->
-                <button onclick="show_breakfast_teas_orders_received_date_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">Date</button>
+                <!-- <button onclick="show_breakfast_teas_orders_received_date_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">Date</button>
                     <div id="breakfast-teas-orders-received-date-grand-child-div" >
                         <form class="orders_from_to_form" id="breakfast-teas-date-date-form" >
                             <label>Date</label>
@@ -1889,10 +1889,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                         </div>
                         <button onclick="close_breakfast_teas_orders_received_date_grand_child_div ()" class="close-child-btn entries_page_fonts">Close</button>
                     </div><br><br>
-            </div>
+            </div> -->
             <!-- ===================================================== -->
 
-            <button onclick="show_breakfast_teas_orders_received_from_to_week_div ()" class="view-btns-children entries_page_fonts">From -- To</button> <br><br>
+            <!-- <button onclick="show_breakfast_teas_orders_received_from_to_week_div ()" class="view-btns-children entries_page_fonts">From -- To</button> <br><br>
             <div id="breakfast-teas-orders-received-from-to-div">
                 <button  onclick="show_breakfast_teas_orders_received_from_to_grand_child_div ()" class="view-btns-grand-child entries_page_fonts">All</button>
                 <div id="breakfast-teas-orders-received-from-to-all-grand-child-div">
@@ -1921,10 +1921,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     <button onclick="close_breakfast_teas_received_from_to_grand_child_div ()" class="close-child-btn entries_page_fonts" >Close</button>
                 </div>
                 </div><br><br><br>
-            </div>
+            </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_breakfast_teas_orders_received_view_last_week_div ()" class=" view-btns-children entries_page_fonts">Last Week</button> <br><br>
+            <!-- <button onclick="show_breakfast_teas_orders_received_view_last_week_div ()" class=" view-btns-children entries_page_fonts">Last Week</button> <br><br>
             <div id="breakfast-teas-orders-received-last-week-div">
                 <button onclick="show_breakfast_teas_orders_received_last_week_all_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">All</button>
                     <div id="breakfast-teas-orders-received-last-week-all-grand-child-div">
@@ -1939,10 +1939,10 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                             </div>
                         <button onclick="close_breakfast_teas_orders_received_last_week_all_grand_child_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
                     </div><br><br>
-                </div>
+                </div> -->
 
             <!-- ===================================================== -->
-            <button onclick="show_breakfast_teas_orders_received_this_month_grand_child_div ()" class="view-btns-children entries_page_fonts">This Month</button> <br><br>
+            <!-- <button onclick="show_breakfast_teas_orders_received_this_month_grand_child_div ()" class="view-btns-children entries_page_fonts">This Month</button> <br><br>
             <div id="breakfast-teas-orders-received-this-month-div">
                 <button  onclick="show_breakfast_teas_orders_received_this_month_all_grand_child_div()" class="view-btns-grand-child   entries_page_fonts">All</button>
                     <div id="breakfast-teas-orders-received-this-month-all-grand-child-div">
@@ -1957,9 +1957,9 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                         </div>
                         <button onclick="close_breakfast_teas_orders_received_this_month_all_grand_child_div ()"  class="close-child-btn entries_page_fonts" >Close</button><br><br>
                     </div><br><br>
-            </div>
+            </div> -->
             <!-- ===================================================== -->
-            <button onclick="show_breakfast_teas_orders_received_view_last_month_div ()" class="view-btns-children  entries_page_fonts">Last Month</button> <br><br>
+            <!-- <button onclick="show_breakfast_teas_orders_received_view_last_month_div ()" class="view-btns-children  entries_page_fonts">Last Month</button> <br><br>
             <div id="breakfast-teas-orders-received-last-month-div">
             <button onclick="show_breakfast_teas_orders_received_last_month_all_grand_child_div ()" class="view-btns-grand-child   entries_page_fonts">All</button><br><br>
                 <div id="breakfast-teas-orders-received-last-month-by-all-grand-child-div">
@@ -1975,7 +1975,7 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     <button onclick="close_breakfast_teas_orders_received_last_month_all_grand_child_div ()" class="close-child-btn  entries_page_fonts" >Close</button><br><br>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!--
         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -1985,7 +1985,7 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
         -->
-        <button onclick="Show_breakfast_other_orders_received_root_div ()" class="clour_types_btn entries_page_fonts" > Break Fast Other </button><br><br>
+        <button onclick="Show_breakfast_other_orders_received_root_div ()" class="clour_types_btn entries_page_fonts" > Break First </button><br><br>
         <div id="breakfast-other-orders-received-root-div">
             <button onclick="show_breakfast_other_orders_received_view_all_div ()" class="view-btns-children entries_page_fonts">View all</button> <br><br>
             <div id="breakfast-other-orders-received-view-all-div">

@@ -2,7 +2,7 @@
 
 .main_body
 {
-    background-color: #C0C0C0;
+    background-color: #b8307c;
 }
 
 
@@ -66,10 +66,18 @@
 .status-table
 {
     width: 85%;
+    background-color: #b15c81;
+}
+.th-labels
+{
+    font-size: 20px;
+    font-weight:bold;
+    color:#E6E6FA;
+    font-family:Times New Roman Times, serif;
 }
 .table-headings-tr
 {
-    background-color:  	#FF4500;
+    background-color:  	purple;
 }
 .orders-status-td{text-align: center;}
 .orders-avenue-td
@@ -83,7 +91,7 @@
 
 .orders-table-tr:hover
 {
-    background-color: black;
+    background-color: purple;
     cursor: pointer;
 }
 .home-log-img
@@ -198,7 +206,7 @@ th[scope=row] {
 .loader {
     position: absolute;
     border: 16px solid ;
-    border-top: 16px solid #7FFF00;
+    border-top: 16px solid #b8307c;
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -253,7 +261,7 @@ th[scope=row] {
 
 .clour_types_btn
 {
-    background-color:#708090;
+    background-color:#a91e6f;
     border:none;
     width:95%;
     height:50px;
@@ -277,14 +285,14 @@ th[scope=row] {
 .clour_types_btn_close
 {
     border:none;
-    background-color: red;
+    background-color: #b3446e;
     width:100%;
     height:30px;
     border-radius:10px;
 }
 .view-btns-children
 {
-    background-color:black;
+    background-color:#c75991;
     border:none;
     width:45%;
     height:45px;
@@ -301,7 +309,7 @@ th[scope=row] {
 {
 
     width: 95%;
-    background-color: #8B8386;
+    background-color: #972b66;
     height:35px;
     border-radius:50px;
 }
@@ -309,14 +317,14 @@ th[scope=row] {
 {
     width: 95%;
     height:30px;
-    background-color: red;
+    background-color:#772652;
     border-radius:50px;
 }
 
 .loader {
     position: absolute;
-    border: 16px solid 	#FA8072; /* Light grey */
-    border-top: 16px solid#FF4500; /* Blue */
+    border: 16px solid 	#cf4790; /* Light grey */
+    border-top: 16px solid#a21369; /* Blue */
     border-radius: 50%;
     width: 115px;
     height: 115px;
@@ -348,7 +356,7 @@ th[scope=row] {
 }
 .view-btns-grand-child
 {
-    background-color:green;
+    background-color:#ae427b;
     border:none;
     width:30%;
     height:45px;
@@ -456,7 +464,7 @@ th[scope=row] {
 
 .menu_btns
 {
-    background-color:#708090;
+    background-color:#a91e6f;
     border:none;
     color:white;
     font-weight: bold;
@@ -466,7 +474,7 @@ th[scope=row] {
 }
 .admin-btn
 {
-    background-color:black;
+    background-color:#bb3385;
     color: white;
     font-weight: bold;
     border:none;
@@ -476,7 +484,7 @@ th[scope=row] {
 }
 .assign-btn
 {
-    background-color:yellowgreen;
+    background-color:#ae427b;
     color: white;
     font-weight: bold;
     border:none;
@@ -559,7 +567,7 @@ th[scope=row] {
     overflow-x: hidden;
     transition: 0.5s;
     /*SLIDER*/
-    background-color:#8B8386; /* chocolate 1 500+*/
+    background-color:#a21369; /* chocolate 1 500+*/
 }
 
 .header a
@@ -594,7 +602,7 @@ th[scope=row] {
 
 #NaviDiv
     {
-        background-color:##a21369;
+        background-color:#a21369;
         height:50px;
     }
 
