@@ -130,12 +130,16 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <form action="http://109.74.192.210:6060/chips_assign_staff_name" method="POST" id="chips-assign-form">
+                            <!-- <form action="http://109.74.192.210:8000/chips_assign_staff_name" method="POST" id="chips-assign-form"> -->
+                            <form action="http://109.74.192.210:8000/main.php" method="POST" id="chips-assign-form">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <label for="uname"><b>Staff</label><br>
-                                <select id="chips-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select>
+                                <label for="uname"><b>Method</label><br>
+                                <select id="chips-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="chips">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -172,12 +176,15 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <form action="http://109.74.192.210:6060/piloa_assign_staff_name" method="POST">
+                            <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <label for="uname"><b>Staff</label><br>
-                                <select id="piloa-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select>
+                                <label for="uname"><b>Method</label><br>
+                                <select id="piloa-staff"  name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="piloa">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -214,12 +221,15 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <form action="http://109.74.192.210:6060/softdrink_assign_staff_name" method="POST">
+                            <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <label for="uname"><b>Staff</label><br>
-                                <select id="soft-drink-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select>
+                                <label for="uname"><b>Method</label><br>
+                                <select id="soft-drink-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="drinkssoft">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -252,12 +262,12 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <form action="http://109.74.192.210:6060/freshdrink_assign_staff_name" method="POST">
+                            <form action="http://109.74.192.210:8000/freshdrink_assign_staff_name" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <label for="uname"><b>Staff</label><br>
-                                <select id="fresh-drink-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select>
+                                <label for="uname"><b>Method</label><br>
+                                <select id="fresh-drink-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required></select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -294,12 +304,15 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <form action="http://109.74.192.210:6060/salads_assign_staff_name" method="POST">
+                            <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <label for="uname"><b>Staff</label><br>
-                                <select id="salads-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select>
+                                <label for="uname"><b>Method</label><br>
+                                <select id="salads-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="salads">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -336,13 +349,16 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <!-- <form action="http://109.74.192.210:6060/chicken_assign_staff_name" method="POST"> -->
-                                <form action="http://localhost:8000/main.php" method="POST">
+                            <!-- <form action="http://109.74.192.210:8000/chicken_assign_staff_name" method="POST"> -->
+                                <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
-<!-- 
-                                <label for="uname"><b>Staff</label><br>
-                                <select id="chicken-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select> -->
+ 
+                                <label for="uname"><b>Method</label><br>
+                                <select id="chicken-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="chicken">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -379,13 +395,16 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <!-- <form action="http://109.74.192.210:6060/luwombo_assign_staff_name" method="POST"> -->
-                                <form action="http://localhost:8000/main.php" method="POST">
+                            <!-- <form action="http://109.74.192.210:8000/luwombo_assign_staff_name" method="POST"> -->
+                                <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <!-- <label for="uname"><b>Staff</label><br>
-                                <select id="luwombo-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select> -->
+                                <label for="uname"><b>Method</label><br>
+                                <select id="luwombo-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="luwombo">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -422,13 +441,16 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <!-- <form action="http://109.74.192.210:6060/localdishe_assign_staff_name" method="POST"> -->
-                                <form action="http://localhost:8000/main.php" method="POST">
+                            <!-- <form action="http://109.74.192.210:8000/localdishe_assign_staff_name" method="POST"> -->
+                                <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <!-- <label for="uname"><b>Staff</label><br>
-                                <select id="localdishe-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select> -->
+                                <label for="uname"><b>Method</label><br>
+                                <select id="localdishe-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="localdishe">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -465,13 +487,16 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <!-- <form action="http://109.74.192.210:6060/breakfast_other_assign_staff_name" method="POST"> -->
-                                <form action="http://localhost:8000/main.php" method="POST">
+                            <!-- <form action="http://109.74.192.210:8000/breakfast_other_assign_staff_name" method="POST"> -->
+                                <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <!-- <label for="uname"><b>Staff</label><br>
-                                <select id="breakfast-other-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select> -->
+                                <label for="uname"><b>Method</label><br>
+                                <select id="breakfast-other-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="breakfothers">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -506,12 +531,12 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <form action="http://109.74.192.210:6060/breakfast_egg_assign_staff_name" method="POST">
+                            <form action="http://109.74.192.210:8000/breakfast_egg_assign_staff_name" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <label for="uname"><b>Staff</label><br>
-                                <select id="breakfast-egg-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select>
+                                <label for="uname"><b>Method</label><br>
+                                <select id="breakfast-egg-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required></select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -546,12 +571,12 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <form action="http://109.74.192.210:6060/breakfast_teas_assign_staff_name" method="POST">
+                            <form action="http://109.74.192.210:8000/breakfast_teas_assign_staff_name" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <label for="uname"><b>Staff</label><br>
-                                <select id="breakfast-teas-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select>
+                                <label for="uname"><b>Method</label><br>
+                                <select id="breakfast-teas-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required></select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -588,13 +613,16 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <!-- <form action="http://109.74.192.210:6060/beverages_assign_staff_name" method="POST"> -->
-                                <form action="http://localhost:8000/main.php" method="POST">
+                            <!-- <form action="http://109.74.192.210:8000/beverages_assign_staff_name" method="POST"> -->
+                                <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <!-- <label for="uname"><b>Staff</label><br>
-                                <select id="beverages-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select> -->
+                                <label for="uname"><b>Method</label><br>
+                                <select id="beverages-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="beverages">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -631,13 +659,16 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <!-- <form action="http://109.74.192.210:6060/goatmeat_assign_staff_name" method="POST"> -->
-                                <form action="http://localhost:8000/main.php" method="POST">
+                            <!-- <form action="http://109.74.192.210:8000/goatmeat_assign_staff_name" method="POST"> -->
+                                <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <!-- <label for="uname"><b>Staff</label><br>
-                                <select id="goatmeat-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select> -->
+                                <label for="uname"><b>Method</label><br>
+                                <select id="goatmeat-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="goatmeat">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>
@@ -674,13 +705,16 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
                     </header>
                     <div class="w3-container">
                         <center><br>
-                            <!-- <form action="http://109.74.192.210:6060/beefliver_assign_staff_name" method="POST"> -->
-                            <form action="http://localhost:8000/main.php" method="POST">
+                            <!-- <form action="http://109.74.192.210:8000/beefliver_assign_staff_name" method="POST"> -->
+                            <form action="http://109.74.192.210:8000/main.php" method="POST">
                                 <label for="uname"><b>Number</label><br>
                                 <input type="text" placeholder="Order No" name="key_num" class="form_input" autocomplete="off" required>
 
-                                <!-- <label for="uname"><b>Staff</label><br>
-                                <select id="beefliver-staff" placeholder="Order No" name="staff_name" class="form_input" autocomplete="off" required></select> -->
+                                <label for="uname"><b>Method</label><br>
+                                <select id="beefliver-staff" placeholder="Order No" name="mthd" class="form_input" autocomplete="off" required>
+                                    <option>---------</option>
+                                    <option value="beefliver">By Cash</option>
+                                </select>
 
                                 <label for="uname"><b>Password</label><br>
                                 <input type="text" placeholder="your pin" name="pwd" class="form_input" autocomplete="off" required>

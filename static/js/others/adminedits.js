@@ -115,7 +115,7 @@ function Hide_all_Admin_Divs ()
     document.getElementById("add-menu-panel-div").style.display="none";
     document.getElementById("edit-menu-panel-div").style.display="none";
     document.getElementById("delete-menu-panel-div").style.display="none";
-    document.getElementById("staffs-panel-div").style.display="none";
+    // document.getElementById("staffs-panel-div").style.display="none";
 
     // MENU ADD SUB MAIN..
     document.getElementById("add-food-div-id").style.display = "none";
@@ -169,8 +169,8 @@ function Hide_all_Admin_Divs ()
     document.getElementById("delete-beefliver-div-id").style.display = "none";
 
     //STAFFS SUB MAIN ..
-    document.getElementById("staffs-add-div-id").style.display = "none";
-    document.getElementById("staffs-delete-div-id").style.display = "none";    
+    // document.getElementById("staffs-add-div-id").style.display = "none";
+    // document.getElementById("staffs-delete-div-id").style.display = "none";    
 }
 // STAFFS 
 function Show_staffs_add_div_id ()
@@ -184,11 +184,11 @@ function Show_staffs_delete_div_id ()
     document.getElementById("staffs-add-div-id").style.display = "none";
     document.getElementById("staffs-delete-div-id").style.display = "block";
 }
-function Show_staffs_panel_div ()
-{
-    document.getElementById("add-menu-panel-div").style.display = "none";
-    document.getElementById("staffs-panel-div").style.display = "block";
-}
+// function Show_staffs_panel_div ()
+// {
+//     document.getElementById("add-menu-panel-div").style.display = "none";
+//     document.getElementById("staffs-panel-div").style.display = "block";
+// }
 
 
 // MENU ...........
@@ -828,14 +828,14 @@ function Show_delete_food_div_id ()
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -847,14 +847,14 @@ function Show_delete_chips_div_id ()
 
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -866,14 +866,14 @@ function Show_delete_piloa_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -887,14 +887,14 @@ function Show_delete_drinks_soft_div_id ()
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-food-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";;
@@ -925,14 +925,14 @@ function Show_delete_salads_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -946,14 +946,14 @@ function Show_delete_chicken_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -965,14 +965,14 @@ function Show_delete_luwombo_div_id ()
 {
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -985,14 +985,14 @@ function Show_delete_localdishe_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -1005,14 +1005,14 @@ function Show_delete_breakfast_other_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -1025,14 +1025,14 @@ function Show_delete_breakfast_egg_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -1045,13 +1045,13 @@ function Show_delete_breakfast_teas_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
@@ -1065,14 +1065,14 @@ function Show_delete_beverages_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -1085,14 +1085,14 @@ function Show_delete_goatmeat_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
     document.getElementById("delete-beefliver-div-id").style.display = "none";
@@ -1105,14 +1105,14 @@ function Show_delete_beefliver_div_id ()
 
     document.getElementById("delete-chips-div-id").style.display = "none";
     document.getElementById("delete-drinks-soft-div-id").style.display = "none";
-    document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
+    // document.getElementById("delete-drinks-fresh-div-id").style.display = "none";
     document.getElementById("delete-piloa-div-id").style.display = "none";
     document.getElementById("delete-chicken-div-id").style.display = "none";
     document.getElementById("delete-luwombo-div-id").style.display = "none";
     document.getElementById("delete-localdishe-div-id").style.display = "none";
     document.getElementById("delete-breakfast-other-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
-    document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-egg-div-id").style.display = "none";
+    // document.getElementById("delete-breakfast-teas-div-id").style.display = "none";
     document.getElementById("delete-beverages-div-id").style.display = "none";
     document.getElementById("delete-goatmeat-div-id").style.display = "none";
     document.getElementById("delete-salads-div-id").style.display = "none";
