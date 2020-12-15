@@ -1,7 +1,7 @@
 
 
 
-var freshdrinks_url = "http://192.168.43.140:6060/";
+var freshdrinks_url = "http://109.74.192.210:6060/";
 // var freshdrinks_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function freshdrinks_save_show_last_month_all ()
 function Load_Drinks_Offline_Data () 
 {
     document.getElementById("fresh-drinks-show-all-tbody").innerHTML = localStorage.getItem("freshdrinksall");
-    document.getElementById("fresh-drinks-date-today-tbody").innerHTML = localStorage.getItem("freshdrinksdatetoday");
-    document.getElementById("fresh-drinks-date-date-tbody").innerHTML = localStorage.getItem("freshdrinksdatedate");
-    document.getElementById("fresh-drinks-from-to-all-tbody").innerHTML = localStorage.getItem("freshdrinksfromtoall")
-    document.getElementById("fresh-drinks-last-week-all-tbody").innerHTML = localStorage.getItem("freshdrinkslstweekall");
-    document.getElementById("fresh-drinks-this-month-all-tbody").innerHTML = localStorage.getItem("freshdrinksdismthall");
-    document.getElementById("fresh-drinks-last-month-all-tbody").innerHTML = localStorage.getItem("freshdrinkslstmthall");
+    // document.getElementById("fresh-drinks-date-today-tbody").innerHTML = localStorage.getItem("freshdrinksdatetoday");
+    // document.getElementById("fresh-drinks-date-date-tbody").innerHTML = localStorage.getItem("freshdrinksdatedate");
+    // document.getElementById("fresh-drinks-from-to-all-tbody").innerHTML = localStorage.getItem("freshdrinksfromtoall")
+    // document.getElementById("fresh-drinks-last-week-all-tbody").innerHTML = localStorage.getItem("freshdrinkslstweekall");
+    // document.getElementById("fresh-drinks-this-month-all-tbody").innerHTML = localStorage.getItem("freshdrinksdismthall");
+    // document.getElementById("fresh-drinks-last-month-all-tbody").innerHTML = localStorage.getItem("freshdrinkslstmthall");
 }
 
 

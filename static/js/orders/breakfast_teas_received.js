@@ -1,7 +1,7 @@
 
 
 
-var breakfast_teas_url = "http://192.168.43.140:6060/";
+var breakfast_teas_url = "http://109.74.192.210:6060/";
 // var breakfast_teas_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function breakfast_teas_save_show_last_month_all ()
 function Load_Breakfast_Teas_Offline_Data () 
 {
     document.getElementById("breakfast-teas-show-all-tbody").innerHTML = localStorage.getItem("breakfastteasall");
-    document.getElementById("breakfast-teas-date-today-tbody").innerHTML = localStorage.getItem("breakfastteasdatetoday");
-    document.getElementById("breakfast-teas-date-date-tbody").innerHTML = localStorage.getItem("breakfastteasdatedate");
-    document.getElementById("breakfast-teas-from-to-all-tbody").innerHTML = localStorage.getItem("breakfastteasfromtoall")
-    document.getElementById("breakfast-teas-last-week-all-tbody").innerHTML = localStorage.getItem("breakfastteaslstweekall");
-    document.getElementById("breakfast-teas-this-month-all-tbody").innerHTML = localStorage.getItem("breakfastteasdismthall");
-    document.getElementById("breakfast-teas-last-month-all-tbody").innerHTML = localStorage.getItem("breakfastteaslstmthall");
+    // document.getElementById("breakfast-teas-date-today-tbody").innerHTML = localStorage.getItem("breakfastteasdatetoday");
+    // document.getElementById("breakfast-teas-date-date-tbody").innerHTML = localStorage.getItem("breakfastteasdatedate");
+    // document.getElementById("breakfast-teas-from-to-all-tbody").innerHTML = localStorage.getItem("breakfastteasfromtoall")
+    // document.getElementById("breakfast-teas-last-week-all-tbody").innerHTML = localStorage.getItem("breakfastteaslstweekall");
+    // document.getElementById("breakfast-teas-this-month-all-tbody").innerHTML = localStorage.getItem("breakfastteasdismthall");
+    // document.getElementById("breakfast-teas-last-month-all-tbody").innerHTML = localStorage.getItem("breakfastteaslstmthall");
 }
 
 

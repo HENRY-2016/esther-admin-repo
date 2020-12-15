@@ -1,8 +1,8 @@
 
 
 
-// var beefliver_url = "http://192.168.43.140:6060/";
-var beefliver_url = "http://127.0.0.1:4444/";
+var beefliver_url = "http://109.74.192.210:6060/";
+// var beefliver_url = "http://127.0.0.1:4444/";
 // var beefliver_url = "http://172.105.158.108:6060/";
 
 
@@ -459,12 +459,12 @@ function beefliver_save_show_last_month_all ()
 function Load_Beefliver_Offline_Data () 
 {
     document.getElementById("beefliver-show-all-tbody").innerHTML = localStorage.getItem("beefliverall");
-    document.getElementById("beefliver-date-today-tbody").innerHTML = localStorage.getItem("beefliverdatetoday");
-    document.getElementById("beefliver-date-date-tbody").innerHTML = localStorage.getItem("beefliverdatedate");
-    document.getElementById("beefliver-from-to-all-tbody").innerHTML = localStorage.getItem("beefliverfromtoall")
-    document.getElementById("beefliver-last-week-all-tbody").innerHTML = localStorage.getItem("beefliverlstweekall");
-    document.getElementById("beefliver-this-month-all-tbody").innerHTML = localStorage.getItem("beefliverdismthall");
-    document.getElementById("beefliver-last-month-all-tbody").innerHTML = localStorage.getItem("beefliverlstmthall");
+    // document.getElementById("beefliver-date-today-tbody").innerHTML = localStorage.getItem("beefliverdatetoday");
+    // document.getElementById("beefliver-date-date-tbody").innerHTML = localStorage.getItem("beefliverdatedate");
+    // document.getElementById("beefliver-from-to-all-tbody").innerHTML = localStorage.getItem("beefliverfromtoall")
+    // document.getElementById("beefliver-last-week-all-tbody").innerHTML = localStorage.getItem("beefliverlstweekall");
+    // document.getElementById("beefliver-this-month-all-tbody").innerHTML = localStorage.getItem("beefliverdismthall");
+    // document.getElementById("beefliver-last-month-all-tbody").innerHTML = localStorage.getItem("beefliverlstmthall");
 }
 
 

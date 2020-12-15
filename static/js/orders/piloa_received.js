@@ -1,7 +1,7 @@
 
 
 
-var piloa_url = "http://192.168.43.140:6060/";
+var piloa_url = "http://109.74.192.210:6060/";
 // var piloa_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function piloa_save_show_last_month_all ()
 function Load_Piloa_Offline_Data () 
 {
     document.getElementById("piloa-show-all-tbody").innerHTML = localStorage.getItem("piloaall");
-    document.getElementById("piloa-date-today-tbody").innerHTML = localStorage.getItem("piloadatetoday");
-    document.getElementById("piloa-date-date-tbody").innerHTML = localStorage.getItem("piloadatedate");
-    document.getElementById("piloa-from-to-all-tbody").innerHTML = localStorage.getItem("piloafromtoall")
-    document.getElementById("piloa-last-week-all-tbody").innerHTML = localStorage.getItem("piloalstweekall");
-    document.getElementById("piloa-this-month-all-tbody").innerHTML = localStorage.getItem("piloadismthall");
-    document.getElementById("piloa-last-month-all-tbody").innerHTML = localStorage.getItem("piloalstmthall");
+    // document.getElementById("piloa-date-today-tbody").innerHTML = localStorage.getItem("piloadatetoday");
+    // document.getElementById("piloa-date-date-tbody").innerHTML = localStorage.getItem("piloadatedate");
+    // document.getElementById("piloa-from-to-all-tbody").innerHTML = localStorage.getItem("piloafromtoall")
+    // document.getElementById("piloa-last-week-all-tbody").innerHTML = localStorage.getItem("piloalstweekall");
+    // document.getElementById("piloa-this-month-all-tbody").innerHTML = localStorage.getItem("piloadismthall");
+    // document.getElementById("piloa-last-month-all-tbody").innerHTML = localStorage.getItem("piloalstmthall");
 }
 
 

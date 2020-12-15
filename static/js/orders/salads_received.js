@@ -1,7 +1,7 @@
 
 
 
-var salads_url = "http://192.168.43.140:6060/";
+var salads_url = "http://109.74.192.210:6060/";
 // var salads_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function salads_save_show_last_month_all ()
 function Load_Salads_Offline_Data () 
 {
     document.getElementById("salads-show-all-tbody").innerHTML = localStorage.getItem("saladsall");
-    document.getElementById("salads-date-today-tbody").innerHTML = localStorage.getItem("saladsdatetoday");
-    document.getElementById("salads-date-date-tbody").innerHTML = localStorage.getItem("saladsdatedate");
-    document.getElementById("salads-from-to-all-tbody").innerHTML = localStorage.getItem("saladsfromtoall")
-    document.getElementById("salads-last-week-all-tbody").innerHTML = localStorage.getItem("saladslstweekall");
-    document.getElementById("salads-this-month-all-tbody").innerHTML = localStorage.getItem("saladsdismthall");
-    document.getElementById("salads-last-month-all-tbody").innerHTML = localStorage.getItem("saladslstmthall");
+    // document.getElementById("salads-date-today-tbody").innerHTML = localStorage.getItem("saladsdatetoday");
+    // document.getElementById("salads-date-date-tbody").innerHTML = localStorage.getItem("saladsdatedate");
+    // document.getElementById("salads-from-to-all-tbody").innerHTML = localStorage.getItem("saladsfromtoall")
+    // document.getElementById("salads-last-week-all-tbody").innerHTML = localStorage.getItem("saladslstweekall");
+    // document.getElementById("salads-this-month-all-tbody").innerHTML = localStorage.getItem("saladsdismthall");
+    // document.getElementById("salads-last-month-all-tbody").innerHTML = localStorage.getItem("saladslstmthall");
 }
 
 

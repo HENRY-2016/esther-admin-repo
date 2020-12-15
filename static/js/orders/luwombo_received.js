@@ -1,7 +1,7 @@
 
 
 
-var luwombo_url = "http://192.168.43.140:6060/";
+var luwombo_url = "http://109.74.192.210:6060/";
 // var luwombo_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function luwombo_save_show_last_month_all ()
 function Load_Luwombo_Offline_Data () 
 {
     document.getElementById("luwombo-show-all-tbody").innerHTML = localStorage.getItem("luwomboall");
-    document.getElementById("luwombo-date-today-tbody").innerHTML = localStorage.getItem("luwombodatetoday");
-    document.getElementById("luwombo-date-date-tbody").innerHTML = localStorage.getItem("luwombodatedate");
-    document.getElementById("luwombo-from-to-all-tbody").innerHTML = localStorage.getItem("luwombofromtoall")
-    document.getElementById("luwombo-last-week-all-tbody").innerHTML = localStorage.getItem("luwombolstweekall");
-    document.getElementById("luwombo-this-month-all-tbody").innerHTML = localStorage.getItem("luwombodismthall");
-    document.getElementById("luwombo-last-month-all-tbody").innerHTML = localStorage.getItem("luwombolstmthall");
+    // document.getElementById("luwombo-date-today-tbody").innerHTML = localStorage.getItem("luwombodatetoday");
+    // document.getElementById("luwombo-date-date-tbody").innerHTML = localStorage.getItem("luwombodatedate");
+    // document.getElementById("luwombo-from-to-all-tbody").innerHTML = localStorage.getItem("luwombofromtoall")
+    // document.getElementById("luwombo-last-week-all-tbody").innerHTML = localStorage.getItem("luwombolstweekall");
+    // document.getElementById("luwombo-this-month-all-tbody").innerHTML = localStorage.getItem("luwombodismthall");
+    // document.getElementById("luwombo-last-month-all-tbody").innerHTML = localStorage.getItem("luwombolstmthall");
 }
 
 

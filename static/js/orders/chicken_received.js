@@ -1,7 +1,7 @@
 
 
 
-var chicken_url = "http://192.168.43.140:6060/";
+var chicken_url = "http://109.74.192.210:6060/";
 // var chicken_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function chicken_save_show_last_month_all ()
 function Load_Chicken_Offline_Data () 
 {
     document.getElementById("chicken-show-all-tbody").innerHTML = localStorage.getItem("chickenall");
-    document.getElementById("chicken-date-today-tbody").innerHTML = localStorage.getItem("chickendatetoday");
-    document.getElementById("chicken-date-date-tbody").innerHTML = localStorage.getItem("chickendatedate");
-    document.getElementById("chicken-from-to-all-tbody").innerHTML = localStorage.getItem("chickenfromtoall")
-    document.getElementById("chicken-last-week-all-tbody").innerHTML = localStorage.getItem("chickenlstweekall");
-    document.getElementById("chicken-this-month-tbody").innerHTML = localStorage.getItem("chickendismthall");
-    document.getElementById("chicken-last-month-tbody").innerHTML = localStorage.getItem("chickenlstmthall");
+    // document.getElementById("chicken-date-today-tbody").innerHTML = localStorage.getItem("chickendatetoday");
+    // document.getElementById("chicken-date-date-tbody").innerHTML = localStorage.getItem("chickendatedate");
+    // document.getElementById("chicken-from-to-all-tbody").innerHTML = localStorage.getItem("chickenfromtoall")
+    // document.getElementById("chicken-last-week-all-tbody").innerHTML = localStorage.getItem("chickenlstweekall");
+    // document.getElementById("chicken-this-month-tbody").innerHTML = localStorage.getItem("chickendismthall");
+    // document.getElementById("chicken-last-month-tbody").innerHTML = localStorage.getItem("chickenlstmthall");
 }
 
 

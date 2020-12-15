@@ -1,7 +1,7 @@
 
 
 
-var breakfast_other_url = "http://192.168.43.140:6060/";
+var breakfast_other_url = "http://109.74.192.210:6060/";
 // var breakfast_other_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function breakfast_other_save_show_last_month_all ()
 function Load_Breakfast_Other_Offline_Data () 
 {
     document.getElementById("breakfast-other-show-all-tbody").innerHTML = localStorage.getItem("breakfastotherall");
-    document.getElementById("breakfast-other-date-today-tbody").innerHTML = localStorage.getItem("breakfastotherdatetoday");
-    document.getElementById("breakfast-other-date-date-tbody").innerHTML = localStorage.getItem("breakfastotherdatedate");
-    document.getElementById("breakfast-other-from-to-all-tbody").innerHTML = localStorage.getItem("breakfastotherfromtoall")
-    document.getElementById("breakfast-other-last-week-all-tbody").innerHTML = localStorage.getItem("breakfastotherlstweekall");
-    document.getElementById("breakfast-other-this-month-all-tbody").innerHTML = localStorage.getItem("breakfastotherdismthall");
-    document.getElementById("breakfast-other-last-month-all-tbody").innerHTML = localStorage.getItem("breakfastotherlstmthall");
+    // document.getElementById("breakfast-other-date-today-tbody").innerHTML = localStorage.getItem("breakfastotherdatetoday");
+    // document.getElementById("breakfast-other-date-date-tbody").innerHTML = localStorage.getItem("breakfastotherdatedate");
+    // document.getElementById("breakfast-other-from-to-all-tbody").innerHTML = localStorage.getItem("breakfastotherfromtoall")
+    // document.getElementById("breakfast-other-last-week-all-tbody").innerHTML = localStorage.getItem("breakfastotherlstweekall");
+    // document.getElementById("breakfast-other-this-month-all-tbody").innerHTML = localStorage.getItem("breakfastotherdismthall");
+    // document.getElementById("breakfast-other-last-month-all-tbody").innerHTML = localStorage.getItem("breakfastotherlstmthall");
 }
 
 

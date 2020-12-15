@@ -1,7 +1,7 @@
 
 
 
-var softdrinks_url = "http://192.168.43.140:6060/";
+var softdrinks_url = "http://109.74.192.210:6060/";
 // var softdrinks_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function softdrinks_save_show_last_month_all ()
 function Load_Drinks_Offline_Data () 
 {
     document.getElementById("soft-drinks-show-all-tbody").innerHTML = localStorage.getItem("softdrinksall");
-    document.getElementById("soft-drinks-date-today-tbody").innerHTML = localStorage.getItem("softdrinksdatetoday");
-    document.getElementById("soft-drinks-date-date-tbody").innerHTML = localStorage.getItem("softdrinksdatedate");
-    document.getElementById("soft-drinks-from-to-all-tbody").innerHTML = localStorage.getItem("softdrinksfromtoall")
-    document.getElementById("soft-drinks-last-week-all-tbody").innerHTML = localStorage.getItem("softdrinkslstweekall");
-    document.getElementById("soft-drinks-this-month-all-tbody").innerHTML = localStorage.getItem("softdrinksdismthall");
-    document.getElementById("soft-drinks-last-month-all-tbody").innerHTML = localStorage.getItem("softdrinkslstmthall");
+    // document.getElementById("soft-drinks-date-today-tbody").innerHTML = localStorage.getItem("softdrinksdatetoday");
+    // document.getElementById("soft-drinks-date-date-tbody").innerHTML = localStorage.getItem("softdrinksdatedate");
+    // document.getElementById("soft-drinks-from-to-all-tbody").innerHTML = localStorage.getItem("softdrinksfromtoall")
+    // document.getElementById("soft-drinks-last-week-all-tbody").innerHTML = localStorage.getItem("softdrinkslstweekall");
+    // document.getElementById("soft-drinks-this-month-all-tbody").innerHTML = localStorage.getItem("softdrinksdismthall");
+    // document.getElementById("soft-drinks-last-month-all-tbody").innerHTML = localStorage.getItem("softdrinkslstmthall");
 }
 
 

@@ -1,7 +1,7 @@
 
 
 
-var chips_url = "http://192.168.43.140:6060/";
+var chips_url = "http://109.74.192.210:6060/";
 // var chips_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function save_show_last_month_all ()
 function Load_Chips_Offline_Data () 
 {
     document.getElementById("chips-show-all-tbody").innerHTML = localStorage.getItem("chipsall");
-    document.getElementById("chips-date-today-tbody").innerHTML = localStorage.getItem("chipsdatetoday");
-    document.getElementById("chips-date-date-tbody").innerHTML = localStorage.getItem("chipsdatedate");
-    document.getElementById("chips-from-to-all-tbody").innerHTML = localStorage.getItem("chipsfromtoall")
-    document.getElementById("chips-last-week-all-tbody").innerHTML = localStorage.getItem("chipslstweekall");
-    document.getElementById("chips-this-month-all-tbody").innerHTML = localStorage.getItem("chipsdismthall");
-    document.getElementById("chips-last-month-all-tbody").innerHTML = localStorage.getItem("chipslstmthall");
+    // document.getElementById("chips-date-today-tbody").innerHTML = localStorage.getItem("chipsdatetoday");
+    // document.getElementById("chips-date-date-tbody").innerHTML = localStorage.getItem("chipsdatedate");
+    // document.getElementById("chips-from-to-all-tbody").innerHTML = localStorage.getItem("chipsfromtoall")
+    // document.getElementById("chips-last-week-all-tbody").innerHTML = localStorage.getItem("chipslstweekall");
+    // document.getElementById("chips-this-month-all-tbody").innerHTML = localStorage.getItem("chipsdismthall");
+    // document.getElementById("chips-last-month-all-tbody").innerHTML = localStorage.getItem("chipslstmthall");
 }
 
 

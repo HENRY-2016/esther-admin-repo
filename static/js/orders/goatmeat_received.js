@@ -1,7 +1,7 @@
 
 
 
-var goatmeat_url = "http://192.168.43.140:6060/";
+var goatmeat_url = "http://109.74.192.210:6060/";
 // var goatmeat_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function goatmeat_save_show_last_month_all ()
 function Load_Goatmeat_Offline_Data () 
 {
     document.getElementById("goatmeat-show-all-tbody").innerHTML = localStorage.getItem("goatmeatall");
-    document.getElementById("goatmeat-date-today-tbody").innerHTML = localStorage.getItem("goatmeatdatetoday");
-    document.getElementById("goatmeat-date-date-tbody").innerHTML = localStorage.getItem("goatmeatdatedate");
-    document.getElementById("goatmeat-from-to-all-tbody").innerHTML = localStorage.getItem("goatmeatfromtoall")
-    document.getElementById("goatmeat-last-week-all-tbody").innerHTML = localStorage.getItem("goatmeatlstweekall");
-    document.getElementById("goatmeat-this-month-all-tbody").innerHTML = localStorage.getItem("goatmeatdismthall");
-    document.getElementById("goatmeat-last-month-all-tbody").innerHTML = localStorage.getItem("goatmeatlstmthall");
+    // document.getElementById("goatmeat-date-today-tbody").innerHTML = localStorage.getItem("goatmeatdatetoday");
+    // document.getElementById("goatmeat-date-date-tbody").innerHTML = localStorage.getItem("goatmeatdatedate");
+    // document.getElementById("goatmeat-from-to-all-tbody").innerHTML = localStorage.getItem("goatmeatfromtoall")
+    // document.getElementById("goatmeat-last-week-all-tbody").innerHTML = localStorage.getItem("goatmeatlstweekall");
+    // document.getElementById("goatmeat-this-month-all-tbody").innerHTML = localStorage.getItem("goatmeatdismthall");
+    // document.getElementById("goatmeat-last-month-all-tbody").innerHTML = localStorage.getItem("goatmeatlstmthall");
 }
 
 

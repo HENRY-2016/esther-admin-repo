@@ -1,7 +1,7 @@
 
 
 
-var breakfast_egg_url = "http://192.168.43.140:6060/";
+var breakfast_egg_url = "http://109.74.192.210:6060/";
 // var breakfast_egg_url = "http://172.105.158.108:6060/";
 
 
@@ -458,12 +458,12 @@ function breakfast_egg_save_show_last_month_all ()
 function Load_Breakfast_Egg_Offline_Data () 
 {
     document.getElementById("breakfast-egg-show-all-tbody").innerHTML = localStorage.getItem("breakfasteggall");
-    document.getElementById("breakfast-egg-date-today-tbody").innerHTML = localStorage.getItem("breakfasteggdatetoday");
-    document.getElementById("breakfast-egg-date-date-tbody").innerHTML = localStorage.getItem("breakfasteggdatedate");
-    document.getElementById("breakfast-egg-from-to-all-tbody").innerHTML = localStorage.getItem("breakfasteggfromtoall")
-    document.getElementById("breakfast-egg-last-week-all-tbody").innerHTML = localStorage.getItem("breakfastegglstweekall");
-    document.getElementById("breakfast-egg-this-month-all-tbody").innerHTML = localStorage.getItem("breakfasteggdismthall");
-    document.getElementById("breakfast-egg-last-month-all-tbody").innerHTML = localStorage.getItem("breakfastegglstmthall");
+    // document.getElementById("breakfast-egg-date-today-tbody").innerHTML = localStorage.getItem("breakfasteggdatetoday");
+    // document.getElementById("breakfast-egg-date-date-tbody").innerHTML = localStorage.getItem("breakfasteggdatedate");
+    // document.getElementById("breakfast-egg-from-to-all-tbody").innerHTML = localStorage.getItem("breakfasteggfromtoall")
+    // document.getElementById("breakfast-egg-last-week-all-tbody").innerHTML = localStorage.getItem("breakfastegglstweekall");
+    // document.getElementById("breakfast-egg-this-month-all-tbody").innerHTML = localStorage.getItem("breakfasteggdismthall");
+    // document.getElementById("breakfast-egg-last-month-all-tbody").innerHTML = localStorage.getItem("breakfastegglstmthall");
 }
 
 
