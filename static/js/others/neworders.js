@@ -1,6 +1,6 @@
 
 neworders_url = "http://109.74.192.210:6060/"
-// neworders_url = "http://127.0.0.1:4444/";
+// neworders_url = "http://127.0.0.1:6060/";
 vibrateionsseconds = 1000;
 reloadsecs = 6000;
 
@@ -14,8 +14,8 @@ function Fetch_Customer_New_Orders ()
     Reload_Luwombo_Orders_All ();
     Reload_Localdishe_Orders_All ();
     Reload_Breakfast_Other_Orders_All ();
-    Reload_Breakfast_Egg_Orders_All ();
-    Reload_Breakfast_Teas_Orders_All ();
+    // Reload_Breakfast_Egg_Orders_All ();
+    // Reload_Breakfast_Teas_Orders_All ();
     Reload_Beverages_Orders_All ();
     Reload_Goatmeat_Orders_All ();
     Reload_Beefliver_Orders_All ();
@@ -43,7 +43,7 @@ function startvibration()
 {
     // Vibrate for 500ms 3 times, pausing for 250ms in between each one.
     navigator.vibrate([500, 250 ,500, 250, 500])
-    console.log("vibrating now..")
+    // console.log("vibrating now..")
 }
 
 function Reload_Load_staffs () {setInterval(Load_staffs (avenu_type_id) , reloadsecs);}
@@ -473,7 +473,7 @@ function Fetch_Breakfast_Other_Orders_All ()
             let results = JSON.parse(this.responseText);
             let orders = results.length;
             document.getElementById("breakfast-other-status-id").innerText = orders;
-            startvibration()
+            // startvibration()
 
             let tbody = document.getElementById('breakfast-other-tbody');
             tbody.innerHTML = ' ';

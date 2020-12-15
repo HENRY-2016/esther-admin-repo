@@ -12,20 +12,20 @@
 <link rel="stylesheet" type="text/css" href="static/css/w3.css">
 
 <script>
-function Init_chips_new_orders_div (){Show_chips_new_orders_div (); Load_staffs ("chips-staff");}
-function Init_piloa_new_orders_div (){Show_piloa_new_orders_div (); Load_staffs ("piloa-staff");}
-function Init_soft_drinks_new_orders_div (){Show_soft_drinks_new_orders_div ();  Load_staffs ("soft-drink-staff");}
-function Init_fresh_drinks_new_orders_div (){Show_fresh_drinks_new_orders_div (); Load_staffs ("fresh-drink-staff");}
-function Init_salads_new_orders_div (){Show_salads_new_orders_div (); Load_staffs ("salads-staff");}
-function Init_chicken_new_orders_div (){Show_chicken_new_orders_div ();  Load_staffs ("chicken-staff");}
-function Init_luwombo_new_orders_div (){Show_luwombo_new_orders_div (); Load_staffs ("luwombo-staff");}
-function Init_localdishe_new_orders_div (){Show_localdishe_new_orders_div ();  Load_staffs ("localdishe-staff");}
-function Init_breakfast_other_new_orders_div (){Show_breakfast_other_new_orders_div (); Load_staffs ("breakfast-other-staff");}
-function Init_breakfast_egg_new_orders_div (){Show_breakfast_egg_new_orders_div ();  Load_staffs ("breakfast-egg-staff");}
-function Init_breakfast_teas_new_orders_div (){Show_breakfast_teas_new_orders_div (); Load_staffs ("breakfast-teas-staff");}
-function Init_beverages_new_orders_div (){Show_beverages_new_orders_div (); Load_staffs ("beverages-staff");}
-function Init_goatmeat_new_orders_div (){Show_goatmeat_new_orders_div ();  Load_staffs ("goatmeat-staff");}
-function Init_beefliver_new_orders_div (){Show_beefliver_new_orders_div ();  Load_staffs ("beefliver-staff");}
+function Init_chips_new_orders_div (){Show_chips_new_orders_div ();}// Load_staffs ("chips-staff");}
+function Init_piloa_new_orders_div (){Show_piloa_new_orders_div ();}// Load_staffs ("piloa-staff");}
+function Init_soft_drinks_new_orders_div (){Show_soft_drinks_new_orders_div ();}//  Load_staffs ("soft-drink-staff");}
+function Init_fresh_drinks_new_orders_div (){Show_fresh_drinks_new_orders_div ();}// Load_staffs ("fresh-drink-staff");}
+function Init_salads_new_orders_div (){Show_salads_new_orders_div ();}// Load_staffs ("salads-staff");}
+function Init_chicken_new_orders_div (){Show_chicken_new_orders_div (); }// Load_staffs ("chicken-staff");}
+function Init_luwombo_new_orders_div (){Show_luwombo_new_orders_div (); }//Load_staffs ("luwombo-staff");}
+function Init_localdishe_new_orders_div (){Show_localdishe_new_orders_div (); }// Load_staffs ("localdishe-staff");}
+function Init_breakfast_other_new_orders_div (){Show_breakfast_other_new_orders_div ();}// Load_staffs ("breakfast-other-staff");}
+function Init_breakfast_egg_new_orders_div (){Show_breakfast_egg_new_orders_div (); }// Load_staffs ("breakfast-egg-staff");}
+function Init_breakfast_teas_new_orders_div (){Show_breakfast_teas_new_orders_div (); }//Load_staffs ("breakfast-teas-staff");}
+function Init_beverages_new_orders_div (){Show_beverages_new_orders_div ();}// Load_staffs ("beverages-staff");}
+function Init_goatmeat_new_orders_div (){Show_goatmeat_new_orders_div ();  }//Load_staffs ("goatmeat-staff");}
+function Init_beefliver_new_orders_div (){Show_beefliver_new_orders_div ();  }//Load_staffs ("beefliver-staff");}
 
 
 function NewOrdersLogic (){ Show_orders_panel_div ();}
@@ -100,9 +100,9 @@ function closeNavi (){document.getElementById("Navigetion").style.width = "0"}
             <tr class="orders-table-tr"><td class="orders-avenue-td">Local Dishe</td> <td class="orders-status-td"><span id="localdishe-status-id" class="w3-badge w3-purple w3-padding-small">0</span></td></tr>
             <tr class="orders-table-tr"><td class="orders-avenue-td"> Drinks </td> <td class="orders-status-td"><span id="softdrink-status-id" class="w3-badge w3-purple w3-padding-small">0</span></td></tr>
             <!-- <tr class="orders-table-tr"><td class="orders-avenue-td">Fresh Drinks </td> <td class="orders-status-td"><span id="freshdrink-status-id" class="w3-badgew3-purple w3-padding-small">0</span></td></tr> -->
-            <tr class="orders-table-tr"><td class="orders-avenue-td">Break First</td> <td class="orders-status-td"><span id="breakfast-egg-status-id" class="w3-badge w3-purple w3-padding-small">0</span></td></tr>
+            <tr class="orders-table-tr"><td class="orders-avenue-td">Break First</td> <td class="orders-status-td"><span id="breakfast-other-status-id" class="w3-badge w3-purple w3-padding-small">0</span></td></tr>
             <!-- <tr class="orders-table-tr"><td class="orders-avenue-td">BreakFast Teas</td> <td class="orders-status-td"><span id="breakfast-teas-status-id" class="w3-badgew3-purple w3-padding-small">0</span></td></tr> -->
-            <!-- <tr class="orders-table-tr"><td class="orders-avenue-td">BreakFast Other</td> <td class="orders-status-td"><span id="breakfast-other-status-id" class="w3-badgew3-purple w3-padding-small">0</span></td></tr> -->
+            <!-- <tr class="orders-table-tr"><td class="orders-avenue-td">BreakFast Other</td> <td class="orders-status-td"><span id="breakfast-egg-status-id" class="w3-badgew3-purple w3-padding-small">0</span></td></tr> -->
         </table>
     </center><br>
     <center><button class="menu_btns fontstyles" onclick="NewOrdersLogic ()"> New Orders</button></center>
